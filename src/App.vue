@@ -1,26 +1,45 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <Bio />
+  <Projects />
+  <Disclaimer />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Bio from "./components/Bio.vue";
+import Projects from "./components/Projects.vue";
+import Disclaimer from "./components/Disclaimer.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Projects,
+    Bio,
+    Disclaimer,
   },
 };
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
+html,
+body {
+  font-family: "Roboto Mono", sans-serif;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 </style>
