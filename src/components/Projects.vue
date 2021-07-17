@@ -37,6 +37,7 @@ body {
 
 .projectsContainer {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;

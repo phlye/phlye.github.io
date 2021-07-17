@@ -26,7 +26,6 @@ a {
   text-decoration: none;
   color: inherit;
   width: 600px;
-  height: auto;
   padding: 15px;
   margin: 15px;
   border-radius: 25px;
