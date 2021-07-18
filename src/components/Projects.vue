@@ -1,17 +1,17 @@
 <template>
   <div class="projectsContainer">
     <ProjectCard
-      img="../assets/acordes.png"
       name="acordes"
+      :img="require('@/assets/acordes.png')"
       url="http://acordes.netlify.app"
       description="a browser based chord analysis/naming tool that works with both MIDI
       keyboards as well as point and click"
     />
     <ProjectCard
-      img="../assets/acordes.png"
-      name="phobos project"
-      url="http://animated-garbanzo.netlify.app"
-      description="an attempt to show the scale of inequality built using three.js/react-three-fiber (WIP)"
+      name="deimos project"
+      :img="require('@/assets/deimos.png')"
+      url="http://deimos-project.netlify.app"
+      description="an attempt to visualise the scale of inequality built using three.js/react-three-fiber (WIP)"
     />
   </div>
 </template>

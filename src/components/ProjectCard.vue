@@ -1,6 +1,6 @@
 <template>
-  <a v-bind:href="url" target="_blank">
-    <img src="../assets/acordes.png" />
+  <a :href="url" target="_blank">
+    <img :src="img" />
     <h2>{{ name }}</h2>
     <p>
       {{ description }}
@@ -25,7 +25,8 @@ a {
   display: block;
   text-decoration: none;
   color: inherit;
-  width: 600px;
+  min-width: 350px;
+  max-width: 500px;
   padding: 15px;
   margin: 15px;
   border-radius: 25px;
@@ -44,6 +45,9 @@ a:hover {
 
 img {
   width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 25px;
 }
 
 h2 {
