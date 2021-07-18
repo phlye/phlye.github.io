@@ -1,10 +1,8 @@
 <template>
   <div class="hello">
-    <p>Hello &#x1F44B;</p>
-    <p>
-      My name is Charly. I'm a software engineer and musician based in London.
-    </p>
-    <p>Sometimes I try and build cool things, such as the following:</p>
+    <p>Hello &#x1F44B; My name is Charly.</p>
+    <p>I'm a software engineer and musician based in London.</p>
+    <p>Sometimes I try and make fun things:</p>
   </div>
 </template>
 
@@ -16,3 +14,15 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+div {
+  border-top: 1px solid #2c3e5033;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+p {
+  margin: 50px;
+}
+</style>

@@ -4,8 +4,7 @@
       name="acordes"
       :img="require('@/assets/acordes.png')"
       url="http://acordes.netlify.app"
-      description="a browser based chord analysis/naming tool that works with both MIDI
-      keyboards as well as point and click"
+      description="a browser based chord analysis/naming tool that works in real time with MIDI"
     />
     <ProjectCard
       name="deimos project"

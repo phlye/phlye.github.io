@@ -10,7 +10,9 @@ export default {
 
 <style scoped>
 p {
-  margin: 50px;
+  width: 100%;
   font-style: italic;
+  border-top: 1px solid #2c3e5033;
+  padding-top: 30px;
 }
 </style>

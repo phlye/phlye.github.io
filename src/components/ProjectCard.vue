@@ -25,8 +25,8 @@ a {
   display: block;
   text-decoration: none;
   color: inherit;
-  min-width: 350px;
-  max-width: 500px;
+  width: 450px;
+  height: 450px;
   padding: 15px;
   margin: 15px;
   border-radius: 25px;
