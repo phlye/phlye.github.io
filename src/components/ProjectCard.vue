@@ -32,7 +32,7 @@ a {
   color: inherit;
   padding: 15px;
   margin: 15px;
-  max-width: 500px;
+  max-width: 465px;
   border-radius: 25px;
   border: 1px solid #2c3e5033;
   box-shadow: 1px 2px #2c3e5033;
@@ -57,6 +57,12 @@ img {
   height: 300px;
   object-fit: cover;
   border-radius: 25px;
+}
+
+h2 {
+  text-align: right;
+  padding: 0px 25px;
+  letter-spacing: 3px;
 }
 
 h2.goldenrod {

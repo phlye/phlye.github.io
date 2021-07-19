@@ -1,5 +1,5 @@
 <template>
-  <p>Please bear in mind these are all works in progress!</p>
+  <p>please bear in mind these are all works in progress!</p>
 </template>
 
 <script>
@@ -12,6 +12,7 @@ export default {
 p {
   width: 100%;
   font-style: italic;
-  padding-top: 30px;
+  padding: 30px 0px;
+  text-align: right;
 }
 </style>
