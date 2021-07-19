@@ -42,6 +42,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
   border-top: 1px solid #2c3e5033;
   border-bottom: 1px solid #2c3e5033;
   padding: 25px 0px;
