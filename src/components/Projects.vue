@@ -4,7 +4,7 @@
       name="acordes"
       :img="require('@/assets/acordes.png')"
       url="http://acordes.netlify.app"
-      description="a real-time browser based chord recognition and naming tool, for MIDI keyboards."
+      description="a real-time browser-based chord naming tool that works with MIDI keyboards."
       madeIn=" built using react and the chrome web MIDI API."
       color="goldenrod"
     />
@@ -13,7 +13,7 @@
       :img="require('@/assets/deimos.png')"
       url="http://deimos-project.netlify.app"
       description="an attempt to visualise the scale of inequality in the UK."
-      madeIn=" built using three.js and react-three-fiber (WIP)."
+      madeIn=" built using three.js and react-three-fiber."
       color="steelblue"
     />
   </div>

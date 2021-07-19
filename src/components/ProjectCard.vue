@@ -32,6 +32,7 @@ a {
   color: inherit;
   padding: 15px;
   margin: 15px;
+  max-width: 500px;
   border-radius: 25px;
   border: 1px solid #2c3e5033;
   box-shadow: 1px 2px #2c3e5033;
@@ -44,6 +45,11 @@ a:hover {
   background-color: #f9f9f9;
   box-shadow: 3px 4px #2c3e5033;
   transform: scale(1.01);
+}
+
+p {
+  text-align: left;
+  padding: 0px 25px;
 }
 
 img {

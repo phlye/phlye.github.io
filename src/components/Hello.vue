@@ -18,6 +18,6 @@ export default {
 
 <style scoped>
 p {
-  margin: 40px;
+  margin: 30px;
 }
 </style>
