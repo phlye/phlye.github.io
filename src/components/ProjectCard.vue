@@ -1,9 +1,12 @@
 <template>
   <a :href="url" target="_blank">
     <img :src="img" />
-    <h2>{{ name }}</h2>
+    <h2 :class="color">{{ name }}</h2>
     <p>
       {{ description }}
+    </p>
+    <p>
+      {{ madeIn }}
     </p>
   </a>
 </template>
@@ -16,17 +19,17 @@ export default {
     url: String,
     img: String,
     description: String,
+    madeIn: String,
+    color: String,
   },
 };
 </script>
 
 <style scoped>
 a {
-  display: block;
+  flex: 1;
   text-decoration: none;
   color: inherit;
-  width: 450px;
-  height: 450px;
   padding: 15px;
   margin: 15px;
   border-radius: 25px;
@@ -50,7 +53,11 @@ img {
   border-radius: 25px;
 }
 
-h2 {
+h2.goldenrod {
   color: goldenrod;
+}
+
+h2.steelblue {
+  color: steelblue;
 }
 </style>

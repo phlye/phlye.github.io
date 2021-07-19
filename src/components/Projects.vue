@@ -4,13 +4,17 @@
       name="acordes"
       :img="require('@/assets/acordes.png')"
       url="http://acordes.netlify.app"
-      description="a browser based chord analysis/naming tool that works in real time with MIDI"
+      description="a real-time browser based chord recognition and naming tool, for MIDI keyboards."
+      madeIn=" built using react and the chrome web MIDI API."
+      color="goldenrod"
     />
     <ProjectCard
       name="deimos project"
       :img="require('@/assets/deimos.png')"
       url="http://deimos-project.netlify.app"
-      description="an attempt to visualise the scale of inequality built using three.js/react-three-fiber (WIP)"
+      description="an attempt to visualise the scale of inequality in the UK."
+      madeIn=" built using three.js and react-three-fiber (WIP)."
+      color="steelblue"
     />
   </div>
 </template>
@@ -38,9 +42,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
   border-top: 1px solid #2c3e5033;
   border-bottom: 1px solid #2c3e5033;
+  padding: 25px 0px;
 }
 </style>
