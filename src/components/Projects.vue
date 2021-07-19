@@ -40,5 +40,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  border-top: 1px solid #2c3e5033;
+  border-bottom: 1px solid #2c3e5033;
 }
 </style>

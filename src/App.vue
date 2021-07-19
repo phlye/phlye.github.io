@@ -1,11 +1,11 @@
 <template>
-  <Bio />
+  <Hello />
   <Projects />
   <Disclaimer />
 </template>
 
 <script>
-import Bio from "./components/Bio.vue";
+import Hello from "./components/Hello.vue";
 import Projects from "./components/Projects.vue";
 import Disclaimer from "./components/Disclaimer.vue";
 
@@ -13,7 +13,7 @@ export default {
   name: "App",
   components: {
     Projects,
-    Bio,
+    Hello,
     Disclaimer,
   },
 };

@@ -16,12 +16,6 @@ export default {
 </script>
 
 <style scoped>
-div {
-  border-top: 1px solid #2c3e5033;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 p {
   margin: 50px;
 }
