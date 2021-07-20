@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
-    <h1>Hello &#x1F44B;</h1>
-    <p>My name is Charly.</p>
-    <p>I'm a software engineer and musician based in London.</p>
+    <h1>hello &#x1F44B;</h1>
+    <p>my name is Charly.</p>
+    <p>i'm a software engineer and musician based in London.</p>
     <ul>
       <li>
         <a href="https://github.com/charlyflynn" target="_blank">- github</a>
@@ -18,7 +18,7 @@
         <a class="disabled">- soundcloud</a>
       </li>
     </ul>
-    <p>Sometimes I try and make fun things:</p>
+    <p>sometimes I try and make fun things:</p>
   </div>
 </template>
 
