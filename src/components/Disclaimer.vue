@@ -10,9 +10,8 @@ export default {
 
 <style scoped>
 p {
-  width: 100%;
   font-style: italic;
-  padding: 30px 0px;
+  padding: 25px;
   text-align: right;
 }
 </style>
