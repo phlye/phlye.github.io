@@ -35,7 +35,7 @@ a {
   max-width: 465px;
   border-radius: 25px;
   border: 1px solid #2c3e5033;
-  box-shadow: 1px 2px #2c3e5033;
+  box-shadow: 1px 2px 4px #2c3e5033;
   transition: all 0.25s ease-in-out 0.15s;
   transform: scale(1);
   transition: all 0.25s ease-in-out 0.15s;
@@ -43,7 +43,7 @@ a {
 
 a:hover {
   background-color: #dce5ee;
-  box-shadow: 3px 4px #2c3e5033;
+  box-shadow: 3px 4px 4px #2c3e5033;
   transform: scale(1.01);
 }
 

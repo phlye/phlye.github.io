@@ -46,5 +46,6 @@ body {
   border-top: 1px solid #2c3e5033;
   border-bottom: 1px solid #2c3e5033;
   padding: 25px 0px;
+  box-shadow: inset 0px 0px 4px #2c3e5033;
 }
 </style>
