@@ -41,12 +41,16 @@ ul {
   list-style-type: none;
 }
 li {
-  display: inline;
+  display: inline-block;
 }
 a {
   text-decoration: none;
   margin: 15px;
+  outline: none;
+  font-weight: bold;
+  color: inherit;
 }
+
 a.disabled {
   cursor: not-allowed;
   text-decoration: line-through;

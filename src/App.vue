@@ -25,6 +25,9 @@ export default {
 html,
 body {
   font-family: "Roboto Mono", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f0f9ff;
 }
 
 #app {
