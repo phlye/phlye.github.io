@@ -46,9 +46,12 @@ li {
 a {
   text-decoration: none;
   margin: 15px;
+  padding: 8px;
   outline: none;
   font-weight: bold;
   color: inherit;
+  border: 1px solid goldenrod;
+  border-radius: 5px;
 }
 
 a.disabled {
